@@ -1,0 +1,317 @@
+/* Multi Section */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#0A1157; /*navy text*/
+}
+
+nav i, .about h3, .portfolio h3, .graphic-design h3{
+	color: #62DEDD;
+	background: -webkit-linear-gradient(-45deg, #5588FC 0%, #3AC1C0 100%);
+	background-image: -webkit-linear-gradient(-45deg, #5588FC 0%, #3AC1C0 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+h5, h6{
+	font-weight: 400;
+}
+
+/* Nav */
+.navbar{
+	border-bottom:1px solid rgba(33,37,41,.1);
+	background-color:#FFFFFF;
+}
+
+.logo-button{
+	background-color: transparent; 
+	background-image: none;
+	cursor: pointer; 
+	border: none;
+}
+
+.logo{
+	height:40px;
+}
+
+nav p,
+.nav-link{
+	color:#0A1157; /*navy*/
+}
+
+.nav-link:hover{
+	color: #84BBFE;  /*medium blue*/
+}
+
+/* Header */
+header.masthead{
+	padding:10rem, 0;
+	background: linear-gradient(-45deg, #62DEDD, #3AC1C0, #5588FC,#84BBFE);
+	background-position: center;
+	background-size:cover;
+	width:100vw;
+	height:85vh;
+	color:#FFFFFF;
+}
+
+header.masthead hr{
+	margin-top:30px;
+	margin-bottom:30px;
+	max-width:125px;
+ 	border-width:4px;
+ 	border-color:#FFF;
+}
+
+header.masthead h1{
+	font-size:2.2rem;
+	text-transform: uppercase;
+	font-weight:300;
+}
+
+header.masthead p{
+	font-weight:300;
+}
+
+header .social{
+	color:#FFFFFF;
+}
+
+.social:hover{
+	opacity:.5;
+}
+
+/* About */
+.about{
+	background-color: #FFFFFF;
+}
+
+.rounded-circle {
+	border-radius: 70%;
+}
+
+.profile-box{
+	max-width:300px;
+}
+
+.about>h3{
+	display: inline-block;
+}
+
+/* Employment */
+.employment{
+	background-color:#B6F0EB; /*Light green*/
+}
+
+.employment-card{
+	background-color: #FFFFFF;
+	width: 90%;
+}
+
+.employment-img{
+	height:55px;
+	padding:5px 5px 10px 5px;
+}
+
+/* Employment and Portfolio */
+.div-shadow{
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.13), 0 2px 10px 0 rgba(0,0,0,0.10);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.13),0 2px 10px 0 rgba(0,0,0,0.10);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.13), 0 2px 10px 0 rgba(0,0,0,0.10);
+}
+
+.employment p{
+	color:#6c757d;  /*gray*/
+}
+
+/* Portfolio */
+.portfolio, .portfolio-card{
+	background-color: #FFFFFF;
+}
+
+.portfolio-card{
+	margin:8px 8px 0 8px !important;
+}
+
+.view-button, .inverse-view-button{
+    color: #3AC1C0;  /*Dark green*/
+    background-color: transparent;
+    background-image: none;
+    border-color: #3AC1C0;  /*Dark green*/
+    cursor: pointer;
+}
+
+.view-button:hover, .inverse-view-button:hover{
+	color: #FFF;
+	background-color: #3AC1C0; /*Dark green*/
+	border-color: transparent; 
+}
+
+.modal-header{
+	background-color:#3AC1C0;  /*Dark green*/
+}
+
+.modal-header h5{
+	color: #FFFFFF;
+}
+
+.modal-body h5{
+	color:#3AC1C0;  /*Dark green */
+}
+
+.modal-img{
+	width:45%;
+	display: block; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.modal-logo{
+	width:40%;
+}
+
+/*Skills */
+#skills{
+	background: linear-gradient(-45deg, #B9E0F8, #B6F0EB);
+}
+
+/* Graphic Design */
+.graphic-design>.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.gd-body{
+	width: 80%;
+}
+
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column>img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-height: 75vh;
+  display: -webkit-box;
+}
+
+.graphic-design-2 {
+	background: linear-gradient(-45deg, #d1eafa, #d5f6f4);
+	color:#0A1157;  /*navy*/
+}
+
+.gd-button{
+	display: flex; 
+	align-items: center;
+	justify-content: center; 
+	width: auto;
+}
+
+.view-more-button{
+    color: #0A1157;  /*navy*/
+    background-color: transparent;
+    background-image: none;
+    border-color: #0A1157;  /*navy*/
+    cursor: pointer;
+}
+
+.view-more-button:hover{
+	color: #FFF;
+	background-color: #0A1157;  /*navy*/
+	border-color: transparent;
+}
+
+/* Footer */
+footer section{
+	background-color:#0A1157;  /*navy*/
+}
+
+footer h3{
+	color:#62DEDD;  /*Medium green*/
+}
+
+footer .social{
+	color:#FFFFFF;
+}
+
+
+/*Media Queries*/
+
+	/* Header */
+	@media screen and (min-width:768px){
+		header.masthead p{
+			font-size:1.25rem;
+		}
+	}
+
+	@media screen and (min-width:992px){
+		header.masthead{
+			padding-top:0;
+			padding-bottom:0;
+		}
+
+	 	header.masthead h1{
+	 		font-size:3.25rem;
+	 	}
+	}
+
+	@media screen and (min-width:1200px){
+		header.masthead h1{
+			font-size:4rem;
+		}
+	}
+
+	/* About */
+	@media screen and (max-width:768px){
+		.service-box{
+			max-width:150px;
+		}
+		.about-header-2{
+			display: none;
+		}
+		.about-header-1{
+			visibility: visible;
+		}
+	}
+
+	@media screen and (min-width:769px){
+		.about-header-1{
+			display: none;
+		}
+		.about-header-2{
+			visibility: visible;
+		}
+	}
+
+	/* Portfolio */
+	@media screen and (max-width: 991px){
+		.modal-img{
+			width:70%;
+		}
+	}
+
+	@media screen and (max-width: 500px){
+		.modal-img{
+			width:95%;
+		}
+	}
+
+	/* Graphic Design */
+	@media screen and (max-width: 550px) {
+		.column {
+			flex: 100%;
+			max-width: 100%;
+		}
+	}
